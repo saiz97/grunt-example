@@ -1,1 +1,7 @@
-"# grunt-example" 
+# grunt-example
+
+## install 
+    npm install
+    
+## start
+    grunt serve
