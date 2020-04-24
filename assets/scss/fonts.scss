@@ -1,0 +1,55 @@
+/*
+ Theme Name:   Hawthorn Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Hawthorn Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     hawthorn
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  hawthorn
+*/
+
+
+/* rock-salt-regular - latin */
+@font-face {
+    font-family: 'Rock Salt';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/wp-content/themes/hawthorn-child/fonts/rocksalt/rock-salt-v8-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Rock Salt Regular'), local('RockSalt-Regular'),
+    url('/wp-content/themes/hawthorn-child/fonts/rocksalt/rock-salt-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/wp-content/themes/hawthorn-child/fonts/rocksalt/rock-salt-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/wp-content/themes/hawthorn-child/fonts/rocksalt/rock-salt-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('/wp-content/themes/hawthorn-child/fonts/rocksalt/rock-salt-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/wp-content/themes/hawthorn-child/fonts/rocksalt/rock-salt-v8-latin-regular.svg#RockSalt') format('svg'); /* Legacy iOS */
+}
+
+/* assistant-600 - latin */
+@font-face {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/wp-content/themes/hawthorn-child/fonts/assistant/assistant-v2-latin-600.eot'); /* IE9 Compat Modes */
+    src: local('Assistant SemiBold'), local('Assistant-SemiBold'),
+    url('/wp-content/themes/hawthorn-child/fonts/assistant/assistant-v2-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/wp-content/themes/hawthorn-child/fonts/assistant/assistant-v2-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/wp-content/themes/hawthorn-child/fonts/assistant/assistant-v2-latin-600.woff') format('woff'), /* Modern Browsers */
+    url('/wp-content/themes/hawthorn-child/fonts/assistant/assistant-v2-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/wp-content/themes/hawthorn-child/fonts/assistant/assistant-v2-latin-600.svg#Assistant') format('svg'); /* Legacy iOS */
+}
+/* assistant-300 - latin */
+@font-face {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/wp-content/themes/hawthorn-child/fonts/assistant/assistant-v2-latin-300.eot'); /* IE9 Compat Modes */
+    src: local('Assistant Light'), local('Assistant-Light'),
+    url('/wp-content/themes/hawthorn-child/fonts/assistant/assistant-v2-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/wp-content/themes/hawthorn-child/fonts/assistant/assistant-v2-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/wp-content/themes/hawthorn-child/fonts/assistant/assistant-v2-latin-300.woff') format('woff'), /* Modern Browsers */
+    url('/wp-content/themes/hawthorn-child/fonts/assistant/assistant-v2-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/wp-content/themes/hawthorn-child/fonts/assistant/assistant-v2-latin-300.svg#Assistant') format('svg'); /* Legacy iOS */
+}

@@ -1,0 +1,106 @@
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: #eee;
+    border-radius: 0;
+    font-size: 11px;
+    color: #888;
+    padding: 12px 23px 12px;
+    margin-top: 12px;
+    display: inline-block;
+    border: none;
+    -o-transition: .15s;
+    -ms-transition: .15s;
+    -moz-transition: .15s;
+    -webkit-transition: .15s;
+    transition: .15s;
+    cursor: pointer;
+    border-radius: 30px;
+    width: auto;
+    font-weight: 700;
+    &:hover {
+        background: #333;
+        color: #FFF;
+    }
+}
+
+#cookie-alert {
+    opacity: .9;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: $lll-lightgray;
+    z-index: 102;
+    border-top: 1px solid $lll-rosa;
+}
+
+// MAILPOET
+
+.mailpoet_paragraph,
+.mailpoet_segment_label,
+.mailpoet_text_label {
+    margin-bottom: .5em;
+}
+
+.mailpoet_checkbox {
+    margin-right: .5em;
+}
+
+//OVERWRITES
+
+body {
+    #mailpoet_form_1 .mailpoet_segment_label, #mailpoet_form_1 .mailpoet_text_label, #mailpoet_form_1 .mailpoet_textarea_label, #mailpoet_form_1 .mailpoet_select_label, #mailpoet_form_1 .mailpoet_radio_label, #mailpoet_form_1 .mailpoet_checkbox_label, #mailpoet_form_1 .mailpoet_list_label, #mailpoet_form_1 .mailpoet_date_label {
+        font-weight: normal;
+    }
+}
+
+
+// CONTACT FORM
+body {
+    .wpcf7 input {
+        width: auto;
+    }
+    .wpcf7 input[type=text],
+    .wpcf7 input[type=email],
+    .wpcf7 textarea {
+        width: 100%;
+    }
+    .wpcf7 input[type=submit] {
+        margin-top: 1em;
+    }
+    .wpcf7-response-output {
+        text-align: center;
+    }
+    div.wpcf7-response-output {
+        border: 2px solid $lll-lachs;
+    }
+
+    div.wpcf7-mail-sent-ok {
+        border: 2px solid $lll-lachs;
+    }
+
+    div.wpcf7-mail-sent-ng,
+    div.wpcf7-aborted {
+        border: 2px solid $lll-lachs;
+    }
+
+    div.wpcf7-spam-blocked {
+        border: 2px solid $lll-lachs;
+    }
+
+    div.wpcf7-validation-errors,
+    div.wpcf7-acceptance-missing {
+        border: 2px solid $lll-lachs;
+    }
+
+    span.wpcf7-not-valid-tip {
+        color: $lll-lachs;
+    }
+
+    .use-floating-validation-tip span.wpcf7-not-valid-tip {
+        border: 1px solid $lll-lachs;
+        background: #fff;
+    }
+}

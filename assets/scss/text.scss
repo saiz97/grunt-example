@@ -1,0 +1,17 @@
+.entry-title {
+    font-family: "Rock Salt", serif;
+}
+
+.post-header h1, .post-header h2 a {
+    color: $lll-rosa;
+}
+
+.post-header .cat a, .short-header .cat a {
+    color: $lll-darkgray;
+}
+
+.button {
+    background: darken($lll-rosa, 5%);
+    padding: .5em 1em;
+    color: #ffffff;
+}

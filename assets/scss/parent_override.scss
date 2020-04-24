@@ -1,0 +1,43 @@
+#nav-wrapper:before,
+.widget-title,
+.post-meta,
+#footer-bottom {
+    background-color: $lll-darkgray;
+}
+
+.footer-text p {
+    color: #ffffff;
+}
+
+.footer-social {
+    border-bottom: 1px solid #ffffff;
+}
+
+.desk-top-search a:hover, .mobile-top-search a:hover,
+#nav-wrapper .menu li a:hover {
+    color: $lll-rosa;
+}
+
+a {
+    color: darken($lll-rosa, 20%);
+}
+
+//#nav-wrapper:before, .widget-title, .post-meta, #footer-bottom {
+//    background-color: $lll-taube;
+//    color: $lll-darkgray;
+//}
+body {
+    input, select, textarea {
+        width: auto;
+    }
+    .footer-social a i, .footer-social a {
+        color: #fff;
+    }
+    .footer-social a:hover, .footer-social a:hover i {
+        color: $lll-rosa;
+    }
+    .archive-box {
+        background-color: #AAB9CD;
+    }
+}
+

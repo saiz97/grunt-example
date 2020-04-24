@@ -1,0 +1,19 @@
+table {
+    border: none;
+    thead tr {
+        border-top-color: $lll-rosa;
+    }
+    tbody tr:last-child td {
+        border-bottom-color: $lll-rosa;
+    }
+}
+
+//@media only screen and (max-width: 840px) {
+//    table {
+//        margin-bottom: 0;
+//        overflow: hidden;
+//        overflow-x: scroll;
+//        display: block;
+//        white-space: nowrap;
+//    }
+//}
